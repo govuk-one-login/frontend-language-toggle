@@ -108,7 +108,7 @@ The package is owned by the DI Frontend Capability team, part of the development
      "view engine",
      configureNunjucks(app, [
        path.resolve("node_modules/frontend-language-toggle"),
-     ])
+     ]),
    );
    ```
 
@@ -138,10 +138,8 @@ The package is owned by the DI Frontend Capability team, part of the development
    If using TypeScript:
 
    ```js
-   import addLanguageParam from "@govuk-one-login/frontend-language-toggle/build/esm/language-param-setter"
+   import addLanguageParam from "@govuk-one-login/frontend-language-toggle/build/esm/language-param-setter";
    ```
-
-
 
 8. Include the stylesheet from frontend-language-toggle/stylesheet/styles.css in your front-end application.
 

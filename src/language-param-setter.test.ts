@@ -17,7 +17,7 @@ describe("addLanguageParam function", () => {
   it("should add language parameter to URL with existing parameters", () => {
     const result = addLanguageParam(
       "en",
-      "http://localhost:6001/path?param1=value1"
+      "http://localhost:6001/path?param1=value1",
     );
     expect(result).toContain("/path?");
     expect(result).toContain("lng=en");
@@ -27,7 +27,7 @@ describe("addLanguageParam function", () => {
   it("should not duplicate the language parameter in URL", () => {
     const result = addLanguageParam(
       "cy",
-      "http://localhost:6001/path?param1=value1&lng=en"
+      "http://localhost:6001/path?param1=value1&lng=en",
     );
     expect(result).toContain("/path?");
     expect(result).toContain("param1=value1");
