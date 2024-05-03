@@ -14,7 +14,7 @@ export default function render(
 
   const macroParams = JSON.stringify(params, null, 2);
 
-  let macroString = `{%- from "./macro.njk" import ${macroName} -%}`;
+  let macroString = `{%- from "./src/macro.njk" import ${macroName} -%}`;
 
   if (children) {
     macroString += `{%- call ${macroName}(${macroParams}) -%}${children}{%- endcall -%}`;
