@@ -49,6 +49,7 @@
     "cheerio": "*",
     "eslint": "8.57.0",
     "nunjucks": "^3.2.4",
+    "prettier": "^3.0.3",
     "rollup": "4.14.3",
     "rollup-plugin-typescript2": "0.36.0",
     "ts-jest": "^29.1.2",
