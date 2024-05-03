@@ -8,6 +8,7 @@
   "scripts": {
     "pub": "npm run build; npm publish --access public",
     "test": "jest",
+    "test:coverage": "jest --coverage src",
     "build": "rollup -c",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\""
   },
