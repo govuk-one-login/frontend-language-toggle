@@ -1,0 +1,26 @@
+{
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint/parser"],
+  "globals": {
+    "__dirname": true
+  },
+  "rules": {
+    "quotes": ["error", "double"],
+    "comma-dangle": ["error", "never"],
+    "max-len": ["error", { "code": 120, "ignorePattern": "^\\s*\\.{3}" }],
+    "object-curly-newline": ["error", { "multiline": true, "consistent": true }]
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.ts"],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      }
+    }
+  ]
+}
