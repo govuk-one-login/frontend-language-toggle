@@ -1,3 +1,5 @@
+> ⚠️ **This repository has been archived.** The code for the language toggle has been moved here: [https://github.com/govuk-one-login/govuk-one-login-frontend](https://github.com/govuk-one-login/govuk-one-login-frontend).
+
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <a name="readme-top"></a>
