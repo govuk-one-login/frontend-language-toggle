@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/govuk-one-login/frontend-language-toggle.git"
+    "url": "git+https://github.com/govuk-one-login/govuk-one-login-frontend.git"
   },
   "keywords": [
     "govuk-one-login",
@@ -35,9 +35,9 @@
   "author": "DI Frontend Capability Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/govuk-one-login/frontend-language-toggle/issues"
+    "url": "https://github.com/govuk-one-login/govuk-one-login-frontend/issues"
   },
-  "homepage": "https://github.com/govuk-one-login/frontend-language-toggle#readme",
+  "homepage": "https://github.com/govuk-one-login/govuk-one-login-frontend#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/jest-axe": "^3.5.9",
